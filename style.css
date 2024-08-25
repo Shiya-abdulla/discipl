@@ -1,0 +1,162 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #ff4b4b;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.coins-cash {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.coins, .cash {
+    width: 48%;
+    text-align: center;
+    padding: 20px;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.coins h2, .cash h2 {
+    margin: 0;
+    font-size: 1.6em;
+    color: #ff4b4b;
+}
+
+.steps-large {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: #ff4b4b;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.circle p {
+    margin: 5px 0;
+}
+
+.note {
+    font-style: italic;
+    color: #888;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.shops {
+    margin-bottom: 20px;
+}
+
+.shops h3 {
+    color: #ff4b4b;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.shop-card {
+    background-color: #2a2a2a;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+}
+
+.shop-card h4 {
+    margin: 0;
+    font-size: 1.4em;
+    color: #fff;
+}
+
+.shop-card p {
+    margin: 10px 0 0;
+    color: #ccc;
+}
+
+.offer-banner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ff4b4b;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    border-bottom-left-radius: 10px;
+}
+
+.referral-cash {
+    margin-top: 20px;
+}
+
+.referral-cash h3 {
+    color: #ff4b4b;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.referral-cash table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.referral-cash th, .referral-cash td {
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px solid #444;
+}
+
+.referral-cash th {
+    background-color: #ff4b4b;
+}
+
+.referral-cash tbody tr:last-child td {
+    border-bottom: none;
+}
